@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Statics">
+      <UniqueIdentifier>{5b7686a2-a690-4450-8213-0a4dc42b7105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{47021b8f-f7c9-4d35-b583-a8cf1bbc0cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generics">
+      <UniqueIdentifier>{7966a7b9-884f-408e-976a-6c144ea401c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{a5b1d80e-2410-4ec5-9fe6-39b506495d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Fonts">
+      <UniqueIdentifier>{ffb96158-3d32-4c1c-90ee-bfe47cd44bf3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Generics</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Statics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Statics</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Statics</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\Body.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Food.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Head.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Fonts\impact.ttf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
