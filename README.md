@@ -2,7 +2,7 @@
 Object oriented snake game written in C++ with SFML.
 Code written in game engine pattern.
 
-![alt text](https://lh5.googleusercontent.com/lYQahSV7SaNopCdhiEb5Rj744a9k8InIVYJO8_L92Rb2bRZTgr-B5bHp_kM9YZ6ppAgIyRB3lihAuFxxd7sF=w1366-h654)
+![alt text](http://www.mediafire.com/convkey/2f39/j2b6xgxdq40zudvzg.jpg)
 
 ## Prerequisites
 - SFML 2.5+ https://www.sfml-dev.org/download/sfml/2.5.0/
